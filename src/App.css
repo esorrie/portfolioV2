@@ -1,0 +1,62 @@
+#root {
+  max-width: full;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.titleBox {
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  border-radius: 8px;
+  height: 15%;
+  width: 40%;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.titleBoxContent {
+  text-align: left;
+  color: white;
+  font-size: 18px;
+  margin: 4%;
+}
+.name {
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.titleInfo {
+  color: lightgray;
+  font-size: 12px;
+}
+
+.titleContact {
+  margin-top: 5%;
+  font-size: 15px;
+}
+
+
+.ContactBox {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  border-radius: 8px;
+  height: 15%;
+  width: 5%;
+  margin-right: auto;
+  position: sticky;
+}
+
+.gitImage {
+  margin: auto;
+}
+.profileImage {
+  margin: auto;
+}
