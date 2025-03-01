@@ -13,45 +13,46 @@
   border-color: grey;
   border-width: 2px;
   border-radius: 8px;
-  height: 15%;
-  width: 40%;
+  height: 60px;
+  /* 7.5% */
+  width: 473px;
+  /* 32.5% */
+  min-width: 280px;
   margin-left: auto;
   margin-right: 5px;
 }
 
 .titleBoxContent {
-  text-align: left;
+  display: flex;
+  flex-direction: column;
   color: white;
-  font-size: 18px;
-  margin: 4%;
+  margin-top: 10.5px;
+  margin-left: 10px;
 }
 .name {
+  font-size: 18px;
   font-weight: bold;
-  padding-bottom: 5px;
 }
 
-.titleInfo {
+.titleRole {
   color: lightgray;
   font-size: 12px;
 }
 
-.titleContact {
-  margin-top: 5%;
-  font-size: 15px;
-}
-
-
 .ContactBox {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  position: sticky;
   border-style: solid;
   border-color: grey;
   border-width: 2px;
   border-radius: 8px;
-  height: 15%;
-  width: 5%;
+  height: 60px; 
+  /* 7.5% */
+  width: 110px; 
+  /* 7.5% */
+  min-width: 95px;
   margin-right: auto;
-  position: sticky;
 }
 
 .gitImage {
@@ -59,4 +60,9 @@
 }
 .profileImage {
   margin: auto;
+}
+
+.sticky {
+  position: sticky;
+  top: 8px;
 }
