@@ -1,6 +1,6 @@
-import React from 'react';
 import "./App.css";
 import Projects from './Projects.jsx'
+import Current from "./Current.jsx";
 
 function App() {
 	return (
@@ -11,6 +11,9 @@ function App() {
 						<div className="name">Edward Sorrie</div>
 						<div className="titleRole">
 							Electronic and Computer Engineering Graduate
+						</div>
+						<div className="titleLocation">
+							Newcastle Upon Tyne, UK
 						</div>
 					</div>
 				</div>
@@ -64,6 +67,7 @@ function App() {
 						</a>
 					</div>
 				</div>
+				<Current />
 				<Projects />
 			</div>
 		</>
@@ -72,4 +76,6 @@ function App() {
 
 export default App;
 
+
 // TODO: Apply responsive css
+// Contact box animation (load from bottom?)
