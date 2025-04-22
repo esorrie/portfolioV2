@@ -1,10 +1,10 @@
 .projectsTitle {
+    grid-column-start: 2;
     border-width: 2px;
     margin-top: 40px;
     min-width: 380px;
     font-size: 20px;
     font-weight: bold;
-
 }
 
 .projectsSection {
@@ -36,7 +36,7 @@
     margin-top: 40px;
 }
 
-.projectCarda {
+.projectCardA {
     display: flex;
     flex-direction: column;
 }
@@ -48,7 +48,7 @@
 .projectTech {
     font-size: 12px;
     color: lightgray;
-    /* margin-top: 5px; */
+    margin-top: 5px;
 }
 
 .projectDescription {
