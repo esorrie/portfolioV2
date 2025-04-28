@@ -6,7 +6,7 @@
   height: 100vh;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  grid-template-rows: auto auto 1fr 1fr 1fr auto auto;
+  grid-template-rows: 0fr 0fr 0fr;
 }
 
 .titleBox {
@@ -50,7 +50,6 @@
   border-radius: 8px;
   margin-right: auto;
   margin-left: 5px;
-
   min-width: 95px;
 }
 
