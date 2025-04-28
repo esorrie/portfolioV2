@@ -13,7 +13,7 @@ function App() {
 							Electronic and Computer Engineering Graduate
 						</div>
 						<div className="titleLocation">
-							Newcastle Upon Tyne, UK
+							United Kingdom
 						</div>
 					</div>
 				</div>
