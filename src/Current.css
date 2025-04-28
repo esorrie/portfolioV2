@@ -1,35 +1,38 @@
-.currentTitle {
+.currentSection {
     grid-column-start: 2;
-    border-width: 2px;
     margin-top: 40px;
+    min-width: 280px;
+
+}
+
+.currentTitle {
+    border-width: 2px;
     min-width: 380px;
     font-size: 20px;
     font-weight: bold;
 }
 
-.currentSection {
-    grid-column-start: 2;
+.currentContent{
+    margin-top: 5px;
+    font-size: 15px;
+
     border-style: solid;
     border-color: grey;
     border-width: 2px;
     border-radius: 8px;
-    margin-top: 15px;
-    min-width: 280px;
 
-}
-
-.currentContent{
-    margin-top: 10.5px;
-    margin-left: 10px;
-    margin-bottom: 10.5px;
-    margin-right: 10px;
-    font-size: 15px;
+    padding-top: 10.5px;
+    padding-left: 10px;
+    padding-bottom: 10.5px;
+    padding-right: 10px;
+    
 }
 
 .currentCard{
     display: grid;
     grid-template-columns: repeat(1, minmax(0, 1fr));
 }
+
 .workTitleFirst {
     font-size: 18px;
 }

@@ -4,10 +4,10 @@ function Current() {
 
     return (
         <>
-        <div className='currentTitle'>
-            Current Work
-        </div>
         <div className='currentSection'>
+            <div className='currentTitle'>
+                Current Work
+            </div>
             <div className='currentContent'>
                 <div className='currentCard'> 
                     <div className='workTitleFirst'>

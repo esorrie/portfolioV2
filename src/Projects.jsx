@@ -4,10 +4,10 @@ function Projects() {
 
     return (
             <>
-            <div className='projectsTitle'>
-                Projects
-            </div>
             <div className='projectsSection'>
+                <div className='projectsTitle'>
+                    Projects
+                </div>
                 <div className='projectContent'>
                     <div className='projectCardFirst'>
                         <div className="projectCardA">

@@ -2,28 +2,31 @@
     grid-column-start: 2;
     border-width: 2px;
     margin-top: 40px;
-    min-width: 380px;
+    min-width: 280px;
     font-size: 20px;
     font-weight: bold;
 }
 
 .projectsSection {
     grid-column-start: 2;
-    border-style: solid;
-    border-color: grey;
-    border-width: 2px;
-    border-radius: 8px;
-    margin-top: 15px;
+
     min-width: 280px;
 
 }
 
 .projectContent {
-    margin-top: 10.5px;
-    margin-left: 10px;
-    margin-bottom: 10.5px;
-    margin-right: 10px;
+    margin-top: 5px;
     font-size: 15px;
+
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
+    border-radius: 8px;
+
+    padding-top: 10.5px;
+    padding-left: 10px;
+    padding-bottom: 10.5px;
+    padding-right: 10px;
 }
 
 .projectCardFirst {
@@ -33,7 +36,7 @@
 .projectCard {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .projectCardA {
