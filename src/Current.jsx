@@ -17,7 +17,9 @@ function Current() {
                         Tech Stack: React, Flask, PostgreSQL, Docker
                     </div>
                     <div className='workDescription'>
-                        Desc: Lorem ipsum odor amet, consectetuer adipiscing elit. Ante posuere ac faucibus quis consequat vel etiam. Pharetra per mauris ac lacinia ridiculus himenaeos euismod. Donec et nisi venenatis quis curae fames. Per risus ac malesuada amet vel ultrices morbi nunc malesuada. Fringilla hendrerit faucibus ante ullamcorper; gravida congue.
+                        A financial data platform with a Flask backend and React frontend that delivers real-time market insights. 
+                        It integrates with a finance API to provide up-to-date stock and ETF data, 
+                        enabling users to track performance, analyze trends, and make informed investment decisions.
                     </div>
                 </div>
                 <div className='currentCard'> 
@@ -28,7 +30,8 @@ function Current() {
                         Tech Stack: React
                     </div>
                     <div className='workDescription'>
-                        Desc: Lorem ipsum odor amet, consectetuer adipiscing elit. Ante posuere ac faucibus quis consequat vel etiam. Pharetra per mauris ac lacinia ridiculus himenaeos euismod. Donec et nisi venenatis quis curae fames. Per risus ac malesuada amet vel ultrices morbi nunc malesuada. Fringilla hendrerit faucibus ante ullamcorper; gravida congue.
+                        A personal portfolio website showcasing my projects and skills, built with React.
+                        It features a modern design, responsive layout, creating a simple to use interface.
                     </div>
                 </div>
             </div>
