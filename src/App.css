@@ -5,7 +5,7 @@
 .page {
   height: 100vh;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: 1fr minmax(280px, 1fr) 1fr;
   grid-template-rows: 0fr 0fr 0fr;
 }
 
@@ -15,7 +15,7 @@
   border-color: grey;
   border-width: 2px;
   border-radius: 8px;
-  min-width: 280px;
+  min-width: 276px;
 }
 
 .titleBoxContent {
@@ -51,6 +51,32 @@
   margin-right: auto;
   margin-left: 5px;
   min-width: 95px;
+}
+
+@media (max-width: 875px) {
+  @media (max-width: 480px) {
+    .page {
+      grid-template-columns: 1fr;
+    }
+    .titleBox,
+    .ContactBox {
+      grid-column-start: 2;
+    }
+  }
+  .ContactBox {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    flex-direction: row;
+    position: static;
+    height: 93px;
+  }
+  .ContactBox.sticky {
+    position: static !important;
+    top: unset !important;
+  }
 }
 
 .gitImage {
