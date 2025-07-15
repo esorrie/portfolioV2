@@ -31,7 +31,8 @@ function Current() {
                     </div>
                     <div className='workDescription'>
                         A personal portfolio website showcasing my projects and skills, built with React.
-                        It features a modern design, responsive layout, creating a simple to use interface.
+                        It features a modern design, responsive layout, creating a simple to use interface. 
+                        This will continue to be updated with new projects and skills as I grow.
                     </div>
                 </div>
             </div>
