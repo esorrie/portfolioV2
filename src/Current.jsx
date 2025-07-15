@@ -14,7 +14,7 @@ function Current() {
                         Finance Tracker
                     </div>
                     <div className='workTech'>
-                        Tech Stack: React, Flask, PostgreSQL, Docker
+                        React, Flask, PostgreSQL, Docker
                     </div>
                     <div className='workDescription'>
                         A financial data platform with a Flask backend and React frontend that delivers real-time market insights. 
@@ -27,7 +27,7 @@ function Current() {
                         Portfolio V2
                     </div>
                     <div className='workTech'>
-                        Tech Stack: React
+                        React
                     </div>
                     <div className='workDescription'>
                         A personal portfolio website showcasing my projects and skills, built with React.
