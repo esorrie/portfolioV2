@@ -22,15 +22,20 @@ function Projects() {
                     <div className='projectCard'>
                         <div className='projectCardA'>
                             <div className='projectName'> Portfolio V1</div>
-                            <div className='projectTech'> This is going to be my tech stack </div>
-                            <div className='projectDescription'> Lorem ipsum odor amet, consectetuer adipiscing elit. Ante posuere ac faucibus quis consequat vel etiam. Pharetra per mauris ac lacinia ridiculus himenaeos euismod. Donec et nisi venenatis quis curae fames. Per risus ac malesuada amet vel ultrices morbi nunc malesuada. Fringilla hendrerit faucibus ante ullamcorper; gravida congue. </div>
+                            <div className='projectTech'>React  </div>
+                            <div className='projectDescription'> 
+                                My first attempt at a portfolio website. 
+                            </div>
                         </div>
                     </div>
                     <div className='projectCard'>
                         <div className="projectCardA">
                             <div className='projectName'> Hybrid Cryptosystem </div>
-                            <div className='projectTech'> Flask, Mongodb </div>
-                            <div className='projectDescription'> Lorem ipsum odor amet, consectetuer adipiscing elit. Ante posuere ac faucibus quis consequat vel etiam. Pharetra per mauris ac lacinia ridiculus himenaeos euismod. Donec et nisi venenatis quis curae fames. Per risus ac malesuada amet vel ultrices morbi nunc malesuada. Fringilla hendrerit faucibus ante ullamcorper; gravida congue. </div>
+                            <div className='projectTech'> Python, Mongodb </div>
+                            <div className='projectDescription'> 
+                                My dissertation project based around encryption methods for wireless communication. 
+                                Features a hybrid cryptosystem consisting of the RSA and AES-256 algorithms to encrypt end-to-end messages. 
+                            </div>  
                         </div>
                     </div>
                 </div>

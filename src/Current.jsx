@@ -14,7 +14,7 @@ function Current() {
                         Finance Tracker
                     </div>
                     <div className='workTech'>
-                        React, Flask, PostgreSQL, Docker
+                        React, Python, PostgreSQL, Docker
                     </div>
                     <div className='workDescription'>
                         A financial data platform with a Flask backend and React frontend that delivers real-time market insights. 
