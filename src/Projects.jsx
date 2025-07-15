@@ -9,21 +9,17 @@ function Projects() {
                     Projects
                 </div>
                 <div className='projectContent'>
-                    <div className='projectCardFirst'>
-                        <div className="projectCardA">
-                            <div className='projectName'> EdScore </div>
-                            <div className='projectTech'> PHP (Laravel), MySQL, TailwindCSS </div>
-                            <div className='projectDescription'> Lorem ipsum odor amet, consectetuer adipiscing elit. Ante posuere ac faucibus quis consequat vel etiam. Pharetra per mauris ac lacinia ridiculus himenaeos euismod. Donec et nisi venenatis quis curae fames. Per risus ac malesuada amet vel ultrices morbi nunc malesuada. Fringilla hendrerit faucibus ante ullamcorper; gravida congue. </div>
-                        </div>
-                        <div className='projectCardb'>
-
+                    <div className="projectCardA">
+                        <div className='projectName'> EdScore </div>
+                        <div className='projectTech'> PHP (Laravel), MySQL, TailwindCSS </div>
+                        <div className='projectDescription'> 
+                            A football data website built with PHP Laravel and MySQL, 
+                            integrating a third-party API to display up-to-date match stats, team info, and player data. 
+                            It provides users with a dynamic and organized view of football insights.
                         </div>
                     </div>
 
                     <div className='projectCard'>
-                        <div className='projectCardb'>
-
-                        </div>
                         <div className='projectCardA'>
                             <div className='projectName'> Portfolio V1</div>
                             <div className='projectTech'> This is going to be my tech stack </div>
@@ -35,9 +31,6 @@ function Projects() {
                             <div className='projectName'> Hybrid Cryptosystem </div>
                             <div className='projectTech'> Flask, Mongodb </div>
                             <div className='projectDescription'> Lorem ipsum odor amet, consectetuer adipiscing elit. Ante posuere ac faucibus quis consequat vel etiam. Pharetra per mauris ac lacinia ridiculus himenaeos euismod. Donec et nisi venenatis quis curae fames. Per risus ac malesuada amet vel ultrices morbi nunc malesuada. Fringilla hendrerit faucibus ante ullamcorper; gravida congue. </div>
-                        </div>
-                        <div className='projectCardb'>
-
                         </div>
                     </div>
                 </div>

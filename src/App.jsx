@@ -10,7 +10,7 @@ function App() {
 					<div className="titleBoxContent">
 						<div className="name">Edward Sorrie</div>
 						<div className="titleRole">
-							Electronic and Computer Engineering Graduate
+							Electronic and Computer Engineering Graduate looking for junior roles to start my career.
 						</div>
 						<div className="titleLocation">
 							United Kingdom
